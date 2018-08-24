@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cynthia Wu</title>
+    <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+  </head>
+  <body>
+  <div class="body-wrap">
+  	<!--title-->
+  	<div class="helloall">
+  	<p class="hello">Hello!</p>
+  	<p class="hello2">My name is Cynthia Wu</p>
+  	</div>
+
+  	<!--Projects section-->
+  	<div>
+  		<div class="projects-box" id="projects-box" onclick="showProjects()"><p>Projects</p></div>
+  		<div class="divider2"></div>
+  		<div class="projects-content" id="projects-content" style="display: none">
+
+  		<!--fan-->
+  		<div class="fan-content">
+  			<div id="gearbox-of-a-fan" onclick="showGearboxOfAFan()"><h1>Gearbox of a Fan</h1></div>
+  			<div id="gearbox-of-a-fan-content" style="display: none">
+  			<p><span class="bold-tag">Disclaimer:</span> The number of teeth on each gear, the number of teeth on each gear, and the overall design of the box is a blown up version of a toy fan I obtained from a 99 cents store. The design is not my own. I only wanted to model and print a version of it.</p>
+  			<p><span class="bold-tag">Status:</span> Work in progress</p>
+  			<p><span class="bold-tag">Notes:</span> Most of the time was spent researching how to model crown gears and how to model spur gears that meshed with crown gears. Before I continue with this project, I'd like to print these pieces out to make sure they work together. I'll have access to a 3D printer once I enter college, but before then I'll have to wait.</p>
+  			<p><span class="bold-tag">Next Steps:</span></p>
+  			<ol>
+  				<li>Print out the parts and assemble them</li>
+  				<li>Model a fan to attach to the gear box</li>
+  				<li>Print out the fan and test to see if it attaches to the gearbox properly.</li>
+  				<li>Optionally: Create a case around the gearbox so it looks like a fan.</li>
+  			</ol>
+  			<div class="fanGearboxVidWrap">
+	  			<video controls>
+	 				<source src="gearboxwip.mp4" type="video/mp4">
+	  				Your browser does not support the video tag.
+				</video>
+			</div>
+  		</div>
+
+  		<div class="divider2"></div>
+
+  		<!--waterwheel-->
+  		<div class="waterwheel-content">
+  			<div id="waterwheel" onclick="showWaterwheel()"><h1>Waterwheel</h1></div>
+  			<div id="waterwheel-content" style="display: none">
+  			<p><span class="bold-tag">Status:</span> Finished</p>
+  			<p><span class="bold-tag">Notes:</span> Although this project is finished, I would like to rework the fountain again if I have time. 
+  				<ul>
+  					<li>Because I relied on hot glue gun to attach the pieces together, the fountain was not extremely sturdy; it broke after being knocked around in a tote bag. I'd like to attempt some sort of supports at the end of each printed part to make the connections sturdier.</li>
+  					<li>The elevated basin also was not effective in directing the flow of water where I wanted it to go, hence the addition of a 3D printed plate I had lying around on the top of the elevated basin.</li> 
+  					<li>The spout on the elevated basin did not print properly and I'd like to have been able to print another to see if it was a fault in the design.</li> 
+  					<li>The cut in the lower basin made for the wire was either unneccessary or the pieces should have been glued so that the wire could rest on the cut easily.</li>
+  					<li>The printed materials were unfortunately of different colors because of limited supplies of resin in one color.</li>
+  					<li>The direction of the waterwheel should be switched so that the paddles actually catch the water.</li>
+  				</ul>
+  			</p>
+  			<h2>Final Product</h2>
+  			<div class="fountainVideoWrap">
+	  			<video controls loop class="fountainVideo">
+	 				<source src="fountain.mp4" type="video/mp4">
+	  				Your browser does not support the video tag.
+				</video>
+			</div>
+			<div>
+				<ul>
+					<li>A wheel bearing is inserted inside the waterwheel as suggested by a classmate in order to make the rotation of the wheel smooth.</li>
+					<li>A transparent tube is inserted into the middle of the vertical poles to pump water from the lower basin to the upper basin.</li>
+				</ul>
+			</div>
+			<h2>Original Model</h2>
+			<div class="originalWWModelWrap">
+				<img src="originallymodeledfountain.png" alt="Model of fountain to be printed made in Autodesk Inventor">
+			</div>
+			<ul>
+				<li>Because the circle disks and rings turned out to be unnecessary, they were not printed due to time contraints.</li>
+				<li>In hindsight, the slot in the lower basin should have been shifted closer to the base of the support for the upper basin.</li>
+			</ul>
+		</div>
+		<div class="divider2"></div>
+  		</div>
+  	</div>
+  	</div>
+
+
+  	<!--divider-->
+  	<div class="divider"></div>
+
+  	<!--About me section-->
+  	<div>
+  		<div class="about-box" id="about-box" onclick="showAbout()"><p>About</p></div>
+
+  		<div class="divider2"></div>
+
+  		<div class="about-content" id="about-content" style="display: none">
+  		<p>On August 27, 2018 I'm heading off to college for the first time!</p>
+  		<p>Dear SUNY Stony Brook, my name is Cynthia Wu, age 18, and I'll be studying mechanical engineering as a freshman within your walls!</p>
+  		<p>To learn to make, that's my desire. There's really so many things I want to learn! But time on earth only lasts so long, so it's become time to pick and choose. Last year (2017) I dabbled in web design (and hence the making of this site), this year I've been diving into CAD and 3D printing! Free software and the recently arrived 3D printers at high school has opened up a whole new world for me!</p>
+  		<p>I can't wait to play around with the 3D printers at college :D</p>
+  		</div>
+  	</div>
+  </div>
+
+  <!--divider-->
+  	<div class="divider"></div>
+  </body>
+</html>
